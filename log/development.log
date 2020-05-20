@@ -258,3 +258,40 @@ Processing by StaticController#organism as HTML
 Completed 200 OK in 35ms (Views: 29.3ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/static/organism" for ::1 at 2020-05-20 06:30:22 +0300
+  [1m[35m (38.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/ANDRIA/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.1/lib/active_record/log_subscriber.rb:98
+Processing by StaticController#organism as HTML
+  Rendering static/organism.html.erb within layouts/application
+  Rendered static/organism.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 637ms (Views: 626.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static/organism" for ::1 at 2020-05-20 06:32:17 +0300
+Processing by StaticController#organism as HTML
+  Rendering static/organism.html.erb within layouts/application
+  Rendered static/organism.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 103ms (Views: 98.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static/banniere" for ::1 at 2020-05-20 06:32:47 +0300
+Processing by StaticController#banniere as HTML
+  Rendering static/banniere.html.erb within layouts/application
+  Rendered static/banniere.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 83ms (Views: 76.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static/organism" for ::1 at 2020-05-20 06:40:03 +0300
+Processing by StaticController#organism as HTML
+  Rendering static/organism.html.erb within layouts/application
+  Rendered static/organism.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 58ms (Views: 54.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static/organism" for ::1 at 2020-05-20 06:43:36 +0300
+Processing by StaticController#organism as HTML
+  Rendering static/organism.html.erb within layouts/application
+  Rendered static/organism.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 54ms (Views: 49.6ms | ActiveRecord: 0.0ms)
+
+
