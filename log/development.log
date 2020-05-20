@@ -295,3 +295,166 @@ Processing by StaticController#organism as HTML
 Completed 200 OK in 54ms (Views: 49.6ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/static/ressource" for ::1 at 2020-05-20 06:53:49 +0300
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/ANDRIA/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.1/lib/active_record/log_subscriber.rb:98
+Processing by StaticController#ressource as HTML
+  Rendering static/ressource.html.erb within layouts/application
+  Rendered static/ressource.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 598ms (Views: 586.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static/navbar" for ::1 at 2020-05-20 06:53:57 +0300
+Processing by StaticController#navbar as HTML
+  Rendering static/navbar.html.erb within layouts/application
+  Rendered static/navbar.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 53ms (Views: 45.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static/form" for ::1 at 2020-05-20 06:54:00 +0300
+Processing by StaticController#form as HTML
+  Rendering static/form.html.erb within layouts/application
+  Rendered static/form.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 35ms (Views: 28.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static/banniere" for ::1 at 2020-05-20 06:54:04 +0300
+Processing by StaticController#banniere as HTML
+  Rendering static/banniere.html.erb within layouts/application
+  Rendered static/banniere.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 38ms (Views: 32.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static/comment" for ::1 at 2020-05-20 06:54:05 +0300
+Processing by StaticController#comment as HTML
+  Rendering static/comment.html.erb within layouts/application
+  Rendered static/comment.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 76ms (Views: 65.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static/ressource" for ::1 at 2020-05-20 06:54:07 +0300
+Processing by StaticController#ressource as HTML
+  Rendering static/ressource.html.erb within layouts/application
+  Rendered static/ressource.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 73ms (Views: 69.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static/element" for ::1 at 2020-05-20 06:54:08 +0300
+Processing by StaticController#element as HTML
+  Rendering static/element.html.erb within layouts/application
+  Rendered static/element.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 48ms (Views: 27.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static/organism" for ::1 at 2020-05-20 06:54:09 +0300
+Processing by StaticController#organism as HTML
+  Rendering static/organism.html.erb within layouts/application
+  Rendered static/organism.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 36ms (Views: 31.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static/footer" for ::1 at 2020-05-20 06:54:18 +0300
+Processing by StaticController#footer as HTML
+  Rendering static/footer.html.erb within layouts/application
+  Rendered static/footer.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 40ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static/ressource" for ::1 at 2020-05-20 06:56:02 +0300
+Processing by StaticController#ressource as HTML
+  Rendering static/ressource.html.erb within layouts/application
+  Rendered static/ressource.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 72ms (Views: 68.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static/card" for ::1 at 2020-05-20 06:56:17 +0300
+Processing by StaticController#card as HTML
+  Rendering static/card.html.erb within layouts/application
+  Rendered static/card.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 41ms (Views: 37.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static/comment" for ::1 at 2020-05-20 06:56:26 +0300
+Processing by StaticController#comment as HTML
+  Rendering static/comment.html.erb within layouts/application
+  Rendered static/comment.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 55ms (Views: 47.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static/banniere" for ::1 at 2020-05-20 06:56:27 +0300
+Processing by StaticController#banniere as HTML
+  Rendering static/banniere.html.erb within layouts/application
+  Rendered static/banniere.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 61ms (Views: 54.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static/ressource" for ::1 at 2020-05-20 06:58:04 +0300
+Processing by StaticController#ressource as HTML
+  Rendering static/ressource.html.erb within layouts/application
+  Rendered static/ressource.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 102ms (Views: 97.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static/card" for ::1 at 2020-05-20 06:58:10 +0300
+Processing by StaticController#card as HTML
+  Rendering static/card.html.erb within layouts/application
+  Rendered static/card.html.erb within layouts/application (24.0ms)
+Completed 200 OK in 65ms (Views: 57.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static/ressource" for ::1 at 2020-05-20 06:59:51 +0300
+Processing by StaticController#ressource as HTML
+  Rendering static/ressource.html.erb within layouts/application
+  Rendered static/ressource.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 87ms (Views: 82.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static/card" for ::1 at 2020-05-20 07:00:12 +0300
+Processing by StaticController#card as HTML
+  Rendering static/card.html.erb within layouts/application
+  Rendered static/card.html.erb within layouts/application (20.2ms)
+Completed 200 OK in 55ms (Views: 47.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static/ressource" for ::1 at 2020-05-20 07:02:03 +0300
+Processing by StaticController#ressource as HTML
+  Rendering static/ressource.html.erb within layouts/application
+  Rendered static/ressource.html.erb within layouts/application (20.7ms)
+Completed 200 OK in 124ms (Views: 118.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static/ressource" for ::1 at 2020-05-20 07:03:38 +0300
+Processing by StaticController#ressource as HTML
+  Rendering static/ressource.html.erb within layouts/application
+  Rendered static/ressource.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 79ms (Views: 75.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static/comment" for ::1 at 2020-05-20 07:04:56 +0300
+Processing by StaticController#comment as HTML
+  Rendering static/comment.html.erb within layouts/application
+  Rendered static/comment.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 45ms (Views: 39.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static/card" for ::1 at 2020-05-20 07:04:57 +0300
+Processing by StaticController#card as HTML
+  Rendering static/card.html.erb within layouts/application
+  Rendered static/card.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 45ms (Views: 41.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static/element" for ::1 at 2020-05-20 07:04:58 +0300
+Processing by StaticController#element as HTML
+  Rendering static/element.html.erb within layouts/application
+  Rendered static/element.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 57ms (Views: 51.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static/element" for ::1 at 2020-05-20 07:07:13 +0300
+Processing by StaticController#element as HTML
+  Rendering static/element.html.erb within layouts/application
+  Rendered static/element.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 108ms (Views: 103.4ms | ActiveRecord: 0.0ms)
+
+
